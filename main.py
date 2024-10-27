@@ -7,7 +7,7 @@ from PIL import Image
 
 # Establish a connection to MySQL Server
 mydb = mysql.connector.connect(
-    host="localhost", 
+    host="127.0.0.1", 
     user="root", 
     password="Sanjay#$55", 
     database="crud_new1"
